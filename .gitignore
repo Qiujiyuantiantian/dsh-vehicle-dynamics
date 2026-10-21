@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cangjie/
+*.log
+.DS_Store
+Thumbs.db
+_*.py
+_*.js
+_*.mjs
+_*.cjs

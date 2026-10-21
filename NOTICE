@@ -1,0 +1,111 @@
+dsh-vehicle-dynamics
+====================
+
+MIT licensed, with an explicit scope carve-out — see LICENSE. The MIT grant
+covers only the material originated by this package's author. It does not
+cover, and does not purport to cover, anything belonging to the source work.
+
+
+Source work
+-----------
+
+    Thomas D. Gillespie, "Fundamentals of Vehicle Dynamics"
+    (SAE, 1992; Chinese translation by 赵六奇 / 金达锋,
+     Tsinghua University Press / 清华大学出版社, 2006)
+
+    Chapters distilled: all ten — 1 axle loads, 2 acceleration, 3 braking,
+    4 road loads, 5 ride, 6 steady-state steering, 7 suspension,
+    8 steering systems, 9 rollover, 10 tyres.
+
+This package is an independent engineering distillation prepared for
+commentary, technical explanation and criticism. It is not affiliated with,
+authorised by, sponsored by, or endorsed by the author, the translators, or
+the publisher. The book is named here for attribution and criticism only.
+
+
+What is and is not reproduced
+-----------------------------
+
+WHAT THE PACKAGE DOES NOT CONTAIN:
+
+  * no continuous passage of the book's prose of ten characters or more;
+  * no chapter, section, page, table or figure of the book;
+  * no reproduction of the book's typographical arrangement.
+
+Every "原书要点" (source-point) line in the capability cards is a SUMMARY
+written for this package, keyed to a page or section reference so a reader can
+check it against a copy of the book. Those summaries were produced by
+paraphrase, then checked mechanically: each was compared against a normalised
+form of the whole book (178,541 characters) and rewritten until its longest
+run of consecutive characters shared with the source was under ten.
+
+WHAT THE PACKAGE DOES CONTAIN, AND WHY THAT IS FINE:
+
+  * physical relationships, formulae and units — not protectable subject
+    matter;
+  * numerical data, typical values and test results — facts are not
+    protectable subject matter;
+  * the structure of the capability cards, the routing, the recomputations,
+    and the defect analyses — original work of this package.
+
+The value of the package lies in the last group. Roughly 77 distinct defects
+in the source are documented — misprints, OCR damage, internally contradictory
+passages, and two figures whose numbers cannot be reconciled. Those findings
+are the package's own contribution and exist precisely to warn a reader away
+from the printed text's errors, not to substitute for it.
+
+
+How the source was obtained and handled
+---------------------------------------
+
+The book reached this pipeline only as a page scan. Pages were OCR'd, and
+display formulas were cropped and transcribed to LaTeX by a vision model. The
+process introduced errors; where detected they are recorded in the cards
+rather than silently repaired. A representative sample of what is recorded:
+
+  Chapter 1   eq (1-5) inertia term printed with the wrong sign; the convention
+              for b and c runs opposite to several other texts.
+  Chapter 2   Example 2.2 states 88 ft/s in first gear, which is physically
+              impossible for that engine; 38.7 ft/s is consistent.
+  Chapter 3   a 500 psi row in the efficiency table gives 0.6617 where the
+              table's own data give 0.617; the note about efficiency falling
+              with deceleration contradicts the table.
+  Chapter 4   the fuel-economy chain of Example 4.5-1 does not close
+              (215 hp x 0.35 = 75.3 lb/h against 82.6 lb/h printed).
+  Chapter 5   eq (5-11) is missing entirely; eqs (5-15) and (5-16) are
+              unusable after OCR damage; the absolute scale of G0 contradicts
+              the axis range of Fig 5.2 by two orders of magnitude.
+  Chapter 6   Example 1 prints a rear axle load of 1932 lb where 1552 lb is
+              required; p179 and p210 disagree on roll-centre direction.
+  Chapter 7   the approximation e/d ~ 2h/L overstates the exact value by 25.5%
+              on the book's own example; eqs (7-12) and (7-26) carry opposite
+              load-transfer signs, making the four-wheel-drive branch unusable.
+  Chapter 8   eq (8-4) writes sin(delta) where the text and figure note give
+              cos(delta); eq (8-17) is unrecoverable and is not reconstructed.
+  Chapter 9   p241 says the roll rate should be as HIGH as possible, which
+              contradicts eq (9-6); FMVSS 1.2 is cited by the book without any
+              standard number, and none has been invented here.
+  Chapter 10  the cornering-coefficient quantity is dimensioned 1/deg, not
+              dimensionless as sometimes restated; several figures carry no
+              data table and are therefore read qualitatively only.
+
+Per chapter the package also records what it deliberately did NOT do: where a
+figure has no data table the card states that no numerical readout is
+available, rather than estimating one; where a formula is unrecoverable the
+card retains only the boundaries that can be established and says so.
+
+
+Third-party components
+----------------------
+
+None. The package declares no runtime dependencies and bundles no third-party
+code.
+
+
+If you are the rights holder
+----------------------------
+
+If you believe anything in this package oversteps, open an issue on the
+repository or contact the maintainer through it. The intent is commentary and
+engineering explanation; anything that crosses the line will be removed or
+rewritten on request.

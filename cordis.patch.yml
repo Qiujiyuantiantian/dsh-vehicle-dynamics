@@ -1,0 +1,16 @@
+# dsh-vehicle-dynamics — DSH bundle patch.
+#
+# Registers the `vehicle-dynamics` skill: the WHOLE of Gillespie's
+# Fundamentals of Vehicle Dynamics — 10 chapters, 164 capability cards,
+# behind ONE entry with a two-level router (chapter → capability card).
+# Chapters: 1 axle loads / 2 acceleration / 3 braking / 4 road loads /
+# 5 ride / 6 steady-state steering / 7 suspension / 8 steering systems /
+# 9 rollover / 10 tyres.
+#
+# Must be wrapped in `- insert:` — a bare `- id: ...` row only overrides an
+# existing row's config and is silently ignored for new ids.
+
+- insert:
+    - id: vehicle-dynamics-skill
+      name: 'dsh-vehicle-dynamics/startup'
+      inject: [skills]

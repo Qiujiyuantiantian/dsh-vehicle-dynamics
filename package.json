@@ -1,0 +1,59 @@
+{
+  "name": "dsh-vehicle-dynamics",
+  "version": "1.0.0",
+  "description": "DSH skill distilled from the whole of Gillespie's Fundamentals of Vehicle Dynamics (10 chapters, 164 capability cards): axle loads, acceleration, braking, road loads, ride, steady-state steering, suspension geometry, steering systems, rollover, and tyres — with 60+ documented source/OCR defects flagged inline. One skill entry, two-level routing.",
+  "type": "module",
+  "main": "lib/startup.js",
+  "exports": {
+    ".": "./lib/startup.js",
+    "./startup": "./lib/startup.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "NOTICE",
+    "LICENSE",
+    "BLIND-TEST-LOG.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-skill",
+    "vehicle-dynamics",
+    "axle-load",
+    "acceleration",
+    "braking",
+    "road-load",
+    "ride-comfort",
+    "understeer",
+    "oversteer",
+    "suspension",
+    "anti-squat",
+    "roll-centre",
+    "rollover",
+    "tyres",
+    "tire-model",
+    "gillespie"
+  ],
+  "author": "Qiujiyuantiantian",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qiujiyuantiantian/dsh-vehicle-dynamics.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
