@@ -6,11 +6,37 @@ covers only the material originated by this package's author. It does not
 cover, and does not purport to cover, anything belonging to the source work.
 
 
+THIS IS A STUDY AID, NOT A SUBSTITUTE FOR THE BOOK
+--------------------------------------------------
+
+Read this section before anything else, because it defines what the package is.
+
+The package is a set of engineering checklists. Each one tells you what to
+compute, which inputs the computation needs, where the method stops being
+valid, and which page of the book to check. It deliberately does NOT contain:
+
+  * the book's explanatory prose, or the reasoning that leads to a formula;
+  * derivations, or a worked argument for why a method is correct;
+  * any figure, table, page or typographical arrangement of the book;
+  * anything that would let a reader learn vehicle dynamics from this package
+    alone.
+
+Every card carries a page reference **instead of** an explanation, because the
+explanation belongs to the book. Without a copy of the book most of these
+cards cannot be used at all: they tell you to check p214, not what p214 says.
+
+If you want to understand vehicle dynamics, buy the book. This package answers
+"what should I compute, and what will go wrong when I do" — it does not teach
+the subject, and it is not a course, a textbook, or a replacement for either.
+
+It is distributed free of charge and is not a commercial product.
+
+
 Source work
 -----------
 
     Thomas D. Gillespie, "Fundamentals of Vehicle Dynamics"
-    (SAE, 1992; Chinese translation by 赵六奇 / 金达锋,
+    (SAE, 1992; Chinese translation,
      Tsinghua University Press / 清华大学出版社, 2006)
 
     Chapters distilled: all ten — 1 axle loads, 2 acceleration, 3 braking,
@@ -30,14 +56,22 @@ WHAT THE PACKAGE DOES NOT CONTAIN:
 
   * no continuous passage of the book's prose of ten characters or more;
   * no chapter, section, page, table or figure of the book;
-  * no reproduction of the book's typographical arrangement.
+  * no reproduction of the book's typographical arrangement;
+  * no translation of the book's continuous text.
 
 Every "原书要点" (source-point) line in the capability cards is a SUMMARY
 written for this package, keyed to a page or section reference so a reader can
 check it against a copy of the book. Those summaries were produced by
 paraphrase, then checked mechanically: each was compared against a normalised
-form of the whole book (178,541 characters) and rewritten until its longest
-run of consecutive characters shared with the source was under ten.
+form of the whole book (218,813 characters, after stripping whitespace,
+punctuation and LaTeX), and rewritten until **no line shared a run of ten
+consecutive Chinese characters with the source**. The measured result is zero
+such runs.
+
+The only longer matches the same check finds are English technical terms the
+book itself uses — "acceleration performance", "vehicle dynamics", "suspension
+geometry" and the like — which are the field's vocabulary, not expression. They
+are reported by the checker separately and are not counted as reproduction.
 
 WHAT THE PACKAGE DOES CONTAIN, AND WHY THAT IS FINE:
 
@@ -99,13 +133,28 @@ Third-party components
 ----------------------
 
 None. The package declares no runtime dependencies and bundles no third-party
-code.
+code. It contains no text, figure or data file from the source work.
 
 
 If you are the rights holder
 ----------------------------
 
-If you believe anything in this package oversteps, open an issue on the
-repository or contact the maintainer through it. The intent is commentary and
-engineering explanation; anything that crosses the line will be removed or
-rewritten on request.
+The intent is commentary and engineering explanation, not replacement. If you
+believe anything here oversteps — a summary that reads too close to your text,
+a structure you consider derivative, a reference you would rather not see — say
+so and it will be removed or rewritten:
+
+    open an issue on the repository, or contact the maintainer through it.
+
+No argument will be made about it. The package can lose any individual card, or
+be taken down entirely, without harm to anyone; the book it comments on is
+worth more than this commentary on it.
+
+
+A note on what this document is not
+-----------------------------------
+
+This file states what the package contains and how it was produced. It is not a
+legal opinion and does not claim that any particular use is permitted in any
+particular jurisdiction. Anyone redistributing this package, or building on it,
+should make their own assessment or seek their own advice.
