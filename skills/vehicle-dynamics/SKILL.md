@@ -105,13 +105,13 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **算静态轴荷；由两轴载荷反求重心位置 b、c** | `references/ch01-introduction/capabilities/static-axle-load-and-cg-location.md` |
-| **算加速/减速/坡道/拖挂的轴荷（完整一般式）** | `.../dynamic-axle-load-general-form.md` |
-| 只算加速时的载荷转移量 ΔW | `.../acceleration-load-transfer.md` |
-| 坡道上的轴荷；坡度 % 与 ° 的换算 | `.../grade-axle-load-and-grade-angle.md` |
-| **两轴载荷之和小于总重，是不是算错了** | `.../axle-load-sum-diagnostic.md` |
-| 拖挂时能爬多陡（FWD/RWD/4WD） | `.../towing-gradeability-analysis.md` |
-| 该用单质量还是两质量模型；怎么画自由体图 | `.../model-setup-fbd-and-assumptions.md` |
-| **符号搞不清（法向力/垂直力、力矩正方向）** | `.../sign-convention-and-moment-direction-check.md` |
+| **算加速/减速/坡道/拖挂的轴荷（完整一般式）** | `references/ch01-introduction/capabilities/dynamic-axle-load-general-form.md` |
+| 只算加速时的载荷转移量 ΔW | `references/ch01-introduction/capabilities/acceleration-load-transfer.md` |
+| 坡道上的轴荷；坡度 % 与 ° 的换算 | `references/ch01-introduction/capabilities/grade-axle-load-and-grade-angle.md` |
+| **两轴载荷之和小于总重，是不是算错了** | `references/ch01-introduction/capabilities/axle-load-sum-diagnostic.md` |
+| 拖挂时能爬多陡（FWD/RWD/4WD） | `references/ch01-introduction/capabilities/towing-gradeability-analysis.md` |
+| 该用单质量还是两质量模型；怎么画自由体图 | `references/ch01-introduction/capabilities/model-setup-fbd-and-assumptions.md` |
+| **符号搞不清（法向力/垂直力、力矩正方向）** | `references/ch01-introduction/capabilities/sign-convention-and-moment-direction-check.md` |
 
 > 本章完整 8 张卡的索引见 `references/ch01-introduction/capability-index.md`。
 
@@ -120,48 +120,48 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **先判断加速受功率限制还是附着限制** | `references/ch02-acceleration/capabilities/acceleration-limit-triage.md` |
-| 精度该选哪一档（粗估/单点/逐速度） | `.../acceleration-precision-ladder.md` |
-| 功率-扭矩-转速换算（hp=T·rpm/5252） | `.../power-torque-rpm-conversion.md` |
-| 用比功率粗估加速度上限 | `.../specific-power-acceleration-limit.md` |
-| 由发动机扭矩算各挡驱动力 | `.../drivetrain-force-from-engine-torque.md` |
-| **有效转动惯量 → 等效质量 → 质量系数** | `.../effective-inertia-to-equivalent-weight.md` |
-| 转速与角速度按速比缩放 | `.../gear-speed-and-omega-scaling.md` |
-| 整车纵向力平衡 | `.../longitudinal-force-balance.md` |
-| 读驱动力图：最高车速、等功率线包络 | `.../tractive-effort-map-and-envelope.md` |
-| 传动比等比级数 / 用万有特性选传动比 | `.../geometric-ratio-series.md` |
-| **最佳换挡点在相邻挡交点** | `.../shift-point-at-force-intersection.md` |
-| 液力变矩器为什么改善起步 | `.../torque-converter-start-boost.md` |
-| 本章单位与常数（550/386/32.2/in·lb·s²） | `.../chapter-units-and-conventions.md` |
-| **附着限制四分支（锁止×前驱×整体/独立）** | `.../traction-limit-decision-tree.md` |
-| 加速时的纵向载荷转移 | `.../longitudinal-load-transfer.md` |
-| **驱动扭矩引起的横向载荷转移** | `.../lateral-load-transfer-from-drive-torque.md` |
-| 差速器不锁止 → 被小载荷侧封顶 | `.../open-differential-traction-limit.md` |
-| 锁止 / 独立驱动轴（**两个独立条件**） | `.../locked-or-independent-drive-axle.md` |
-| 前驱车附着限制 | `.../front-drive-traction-limit.md` |
-| 前驱 vs 后驱对比 | `.../fwd-vs-rwd-traction-comparison.md` |
+| 精度该选哪一档（粗估/单点/逐速度） | `references/ch02-acceleration/capabilities/acceleration-precision-ladder.md` |
+| 功率-扭矩-转速换算（hp=T·rpm/5252） | `references/ch02-acceleration/capabilities/power-torque-rpm-conversion.md` |
+| 用比功率粗估加速度上限 | `references/ch02-acceleration/capabilities/specific-power-acceleration-limit.md` |
+| 由发动机扭矩算各挡驱动力 | `references/ch02-acceleration/capabilities/drivetrain-force-from-engine-torque.md` |
+| **有效转动惯量 → 等效质量 → 质量系数** | `references/ch02-acceleration/capabilities/effective-inertia-to-equivalent-weight.md` |
+| 转速与角速度按速比缩放 | `references/ch02-acceleration/capabilities/gear-speed-and-omega-scaling.md` |
+| 整车纵向力平衡 | `references/ch02-acceleration/capabilities/longitudinal-force-balance.md` |
+| 读驱动力图：最高车速、等功率线包络 | `references/ch02-acceleration/capabilities/tractive-effort-map-and-envelope.md` |
+| 传动比等比级数 / 用万有特性选传动比 | `references/ch02-acceleration/capabilities/geometric-ratio-series.md` |
+| **最佳换挡点在相邻挡交点** | `references/ch02-acceleration/capabilities/shift-point-at-force-intersection.md` |
+| 液力变矩器为什么改善起步 | `references/ch02-acceleration/capabilities/torque-converter-start-boost.md` |
+| 本章单位与常数（550/386/32.2/in·lb·s²） | `references/ch02-acceleration/capabilities/chapter-units-and-conventions.md` |
+| **附着限制四分支（锁止×前驱×整体/独立）** | `references/ch02-acceleration/capabilities/traction-limit-decision-tree.md` |
+| 加速时的纵向载荷转移 | `references/ch02-acceleration/capabilities/longitudinal-load-transfer.md` |
+| **驱动扭矩引起的横向载荷转移** | `references/ch02-acceleration/capabilities/lateral-load-transfer-from-drive-torque.md` |
+| 差速器不锁止 → 被小载荷侧封顶 | `references/ch02-acceleration/capabilities/open-differential-traction-limit.md` |
+| 锁止 / 独立驱动轴（**两个独立条件**） | `references/ch02-acceleration/capabilities/locked-or-independent-drive-axle.md` |
+| 前驱车附着限制 | `references/ch02-acceleration/capabilities/front-drive-traction-limit.md` |
+| 前驱 vs 后驱对比 | `references/ch02-acceleration/capabilities/fwd-vs-rwd-traction-comparison.md` |
 
 ## 第 3 章 制动 — 意图索引（19 张卡）
 
 | 用户意图 | 加载 |
 |---|---|
 | 算制动距离与停车时间（含/不含风阻） | `references/ch03-braking/capabilities/braking-distance-and-time.md` |
-| 算制动吸收的能量与功率（峰值/平均） | `.../brake-energy-and-power.md` |
-| 由踏板/管路压力算制动力，鼓式 vs 盘式 | `.../pressure-to-brake-force.md`、`drum-brake-factor.md` |
-| 减速时前后轴各承受多少载荷 | `.../dynamic-load-transfer.md` |
-| 画前后轴最大制动力边界线 | `.../lockup-boundary-lines.md` |
-| 求前后轴同时抱死的交点 | `.../simultaneous-lockup-point.md` |
-| 效能三角形怎么画、多工况叠加怎么看 | `.../effectiveness-triangle.md` |
-| 配比线的斜率（用制动增益定） | `.../proportion-line-slope.md` |
-| 压力比例阀 500/0.3 是什么意思 | `.../proportioning-valve.md` |
-| 算制动效率（七步表法） | `.../brake-efficiency-table.md` |
-| **判断哪个轮先抱死、后果是什么** | `.../lockup-order-and-consequence.md` |
-| 固定配比无解时怎么办（决策树） | `.../no-solution-decision-tree.md` |
-| 配比设计的完整流程 | `.../proportion-design-workflow.md` |
-| FMVSS 105/121 减速度符合性初筛 | `.../fmvss-compliance-screen.md` |
-| 解释 ABS 为什么有用（μ 峰值不稳定） | `.../mu-peak-instability.md` |
-| 载荷增加对 μ 的影响 | `.../load-sensitivity.md` |
-| 滚动/空气/传动/坡度阻力要不要计入 | `.../resistance-terms.md` |
-| 转动惯量对有效质量的影响 | `.../rotational-inertia-effective-mass.md` |
+| 算制动吸收的能量与功率（峰值/平均） | `references/ch03-braking/capabilities/brake-energy-and-power.md` |
+| 由踏板/管路压力算制动力，鼓式 vs 盘式 | `references/ch03-braking/capabilities/pressure-to-brake-force.md`、`references/ch03-braking/capabilities/drum-brake-factor.md` |
+| 减速时前后轴各承受多少载荷 | `references/ch03-braking/capabilities/dynamic-load-transfer.md` |
+| 画前后轴最大制动力边界线 | `references/ch03-braking/capabilities/lockup-boundary-lines.md` |
+| 求前后轴同时抱死的交点 | `references/ch03-braking/capabilities/simultaneous-lockup-point.md` |
+| 效能三角形怎么画、多工况叠加怎么看 | `references/ch03-braking/capabilities/effectiveness-triangle.md` |
+| 配比线的斜率（用制动增益定） | `references/ch03-braking/capabilities/proportion-line-slope.md` |
+| 压力比例阀 500/0.3 是什么意思 | `references/ch03-braking/capabilities/proportioning-valve.md` |
+| 算制动效率（七步表法） | `references/ch03-braking/capabilities/brake-efficiency-table.md` |
+| **判断哪个轮先抱死、后果是什么** | `references/ch03-braking/capabilities/lockup-order-and-consequence.md` |
+| 固定配比无解时怎么办（决策树） | `references/ch03-braking/capabilities/no-solution-decision-tree.md` |
+| 配比设计的完整流程 | `references/ch03-braking/capabilities/proportion-design-workflow.md` |
+| FMVSS 105/121 减速度符合性初筛 | `references/ch03-braking/capabilities/fmvss-compliance-screen.md` |
+| 解释 ABS 为什么有用（μ 峰值不稳定） | `references/ch03-braking/capabilities/mu-peak-instability.md` |
+| 载荷增加对 μ 的影响 | `references/ch03-braking/capabilities/load-sensitivity.md` |
+| 滚动/空气/传动/坡度阻力要不要计入 | `references/ch03-braking/capabilities/resistance-terms.md` |
+| 转动惯量对有效质量的影响 | `references/ch03-braking/capabilities/rotational-inertia-effective-mass.md` |
 
 > 本章完整 19 张卡的索引见 `references/ch03-braking/capability-index.md`。
 
@@ -170,19 +170,19 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **由温度气压算空气密度** | `references/ch04-road-loads/capabilities/air-density-and-standard-atmosphere.md` |
-| **算风阻与所需马力** | `.../aero-drag-and-power.md` |
-| **顺风/逆风为什么不对称** | `.../wind-relative-velocity-and-asymmetry.md` |
-| 阻力都花在哪、该改哪里（0.42 的分解） | `.../drag-source-breakdown-and-modifications.md` |
-| 尾部倾角与分离（≤15° 规则、卡曼背） | `.../tail-shape-and-separation-limit.md` |
-| 俯仰/横摆/侧倾力矩；压力中心在哪 | `.../aero-moments-and-pressure-center.md` |
-| 升力与侧向力（用前端面积，不是侧面） | `.../lateral-force-and-lift.md` |
-| **横风为什么飘；降阻与横风稳定的取舍** | `.../crosswind-sensitivity-and-tradeoff.md` |
-| 滚阻的基础口径（$f_rW$、静态重量够用） | `.../rolling-resistance-baseline.md` |
-| **滚阻系数该套哪个式子**（常数/线性/V^2.5/货车双式） | `.../rolling-resistance-coefficient-models.md` |
-| 温度/胎压/速度/磨损/侧偏怎么改滚阻 | `.../rolling-resistance-state-corrections.md` |
-| 铺装 vs 越野 vs 湿路的滚阻 | `.../road-surface-and-offroad-friction.md` |
-| **总道路负载与功率**（力 V²、功率 V³） | `.../road-load-and-power.md` |
-| 油耗归因（为什么不能由 ΔCd 直接推 Δmpg） | `.../fuel-economy-chain-and-attribution.md` |
+| **算风阻与所需马力** | `references/ch04-road-loads/capabilities/aero-drag-and-power.md` |
+| **顺风/逆风为什么不对称** | `references/ch04-road-loads/capabilities/wind-relative-velocity-and-asymmetry.md` |
+| 阻力都花在哪、该改哪里（0.42 的分解） | `references/ch04-road-loads/capabilities/drag-source-breakdown-and-modifications.md` |
+| 尾部倾角与分离（≤15° 规则、卡曼背） | `references/ch04-road-loads/capabilities/tail-shape-and-separation-limit.md` |
+| 俯仰/横摆/侧倾力矩；压力中心在哪 | `references/ch04-road-loads/capabilities/aero-moments-and-pressure-center.md` |
+| 升力与侧向力（用前端面积，不是侧面） | `references/ch04-road-loads/capabilities/lateral-force-and-lift.md` |
+| **横风为什么飘；降阻与横风稳定的取舍** | `references/ch04-road-loads/capabilities/crosswind-sensitivity-and-tradeoff.md` |
+| 滚阻的基础口径（$f_rW$、静态重量够用） | `references/ch04-road-loads/capabilities/rolling-resistance-baseline.md` |
+| **滚阻系数该套哪个式子**（常数/线性/V^2.5/货车双式） | `references/ch04-road-loads/capabilities/rolling-resistance-coefficient-models.md` |
+| 温度/胎压/速度/磨损/侧偏怎么改滚阻 | `references/ch04-road-loads/capabilities/rolling-resistance-state-corrections.md` |
+| 铺装 vs 越野 vs 湿路的滚阻 | `references/ch04-road-loads/capabilities/road-surface-and-offroad-friction.md` |
+| **总道路负载与功率**（力 V²、功率 V³） | `references/ch04-road-loads/capabilities/road-load-and-power.md` |
+| 油耗归因（为什么不能由 ΔCd 直接推 Δmpg） | `references/ch04-road-loads/capabilities/fuel-economy-chain-and-attribution.md` |
 
 > 本章完整 14 张卡的索引见 `references/ch04-road-loads/capability-index.md`。
 
@@ -191,18 +191,18 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **车太颠/太晃，先按频率归段**（三段链总流程） | `references/ch05-ride/capabilities/ride-triage-and-resonance-windows.md` |
-| 路面不平度谱怎么用；轮辙和/差怎么拆 | `.../road-input-spectrum-and-track-split.md` |
-| 四分之一车辆增益；由输入谱算响应谱 | `.../quarter-car-gain-and-spectrum-product.md` |
-| **乘适刚度 → 跳动频率 → 静挠度尺** | `.../ride-rate-and-bounce-frequency.md` |
-| 悬架行程够不够；阻尼上限 | `.../travel-budget-and-damping-limits.md` |
-| 减振器怎么调（阀片/迟滞/压缩回弹比） | `.../damper-valving-and-hysteresis.md` |
-| **主动悬架能改善多少（−30% 与 −10% 必须成对）** | `.../active-vs-passive-paired-gain.md` |
-| 车轮 hop 与簧下质量 | `.../wheel-hop-and-unsprung-mass.md` |
-| 车上振动源是谁（阶次定位） | `.../onboard-excitation-orders.md` |
-| **为什么高速颠、低速晃**（轴距滤波零点） | `.../wheelbase-filter-zeros.md` |
-| 双模态与两个运动中心（跳动/俯仰谁主导） | `.../pitch-bounce-bimodal-and-centers.md` |
-| **Olley 准则怎么用**（经验法则，不是定律） | `.../olley-criteria-and-dynamic-index.md` |
-| 人体判据怎么用；为什么不能当 KPI | `.../human-limit-and-spectrum-presentation.md` |
+| 路面不平度谱怎么用；轮辙和/差怎么拆 | `references/ch05-ride/capabilities/road-input-spectrum-and-track-split.md` |
+| 四分之一车辆增益；由输入谱算响应谱 | `references/ch05-ride/capabilities/quarter-car-gain-and-spectrum-product.md` |
+| **乘适刚度 → 跳动频率 → 静挠度尺** | `references/ch05-ride/capabilities/ride-rate-and-bounce-frequency.md` |
+| 悬架行程够不够；阻尼上限 | `references/ch05-ride/capabilities/travel-budget-and-damping-limits.md` |
+| 减振器怎么调（阀片/迟滞/压缩回弹比） | `references/ch05-ride/capabilities/damper-valving-and-hysteresis.md` |
+| **主动悬架能改善多少（−30% 与 −10% 必须成对）** | `references/ch05-ride/capabilities/active-vs-passive-paired-gain.md` |
+| 车轮 hop 与簧下质量 | `references/ch05-ride/capabilities/wheel-hop-and-unsprung-mass.md` |
+| 车上振动源是谁（阶次定位） | `references/ch05-ride/capabilities/onboard-excitation-orders.md` |
+| **为什么高速颠、低速晃**（轴距滤波零点） | `references/ch05-ride/capabilities/wheelbase-filter-zeros.md` |
+| 双模态与两个运动中心（跳动/俯仰谁主导） | `references/ch05-ride/capabilities/pitch-bounce-bimodal-and-centers.md` |
+| **Olley 准则怎么用**（经验法则，不是定律） | `references/ch05-ride/capabilities/olley-criteria-and-dynamic-index.md` |
+| 人体判据怎么用；为什么不能当 KPI | `references/ch05-ride/capabilities/human-limit-and-spectrum-presentation.md` |
 
 > 本章完整 13 张卡的索引见 `references/ch05-ride/capability-index.md`。
 
@@ -210,44 +210,44 @@ description: |
 
 | 用户意图 | 加载 |
 |---|---|
-| 判断推头/甩尾；算 K | `references/ch06-steady-state-steering/capabilities/steer-character-k.md`、`sae-k-definition.md`（SAE 的转向盘口径） |
-| 侧偏刚度要不要乘 2、每轴两轮还是单胎 | `.../understeer-gradient-definition.md` |
-| 特征车速；"247 mph 是不是很稳" | `.../characteristic-speed.md` |
-| 临界车速；甩尾是不是车的问题 | `.../critical-speed.md` |
-| 质心侧滑角 β；β 什么时候为零 | `.../cg-sideslip-angle.md`、`beta-zero-speed.md` |
-| 静态裕度 e/L | `.../static-margin.md` |
-| 阿克曼角 / 内外轮转角差 / 偏离轮迹 | `.../low-speed-geometry.md`、`ackerman-angle.md`、`off-tracking.md` |
-| 侧倾刚度、侧倾率、轮荷差、力矩怎么分到前后轴 | `.../roll-chain-kphi-phi-dfz.md`、`roll-rate.md`、`load-transfer-two-mechanisms.md`、`roll-stiffness-formula.md`、`roll-moment-front-bias.md`、`load-transfer-only-distributed.md` |
-| 外倾对 K 的贡献；地面外倾角怎么合成 | `.../camber-thrust-k.md`、`camber-magnitude-screen.md`、`camber-angle-composition.md` |
-| 换衬套后转向往哪边变；回正力矩算不算 | `.../compliance-steer-k.md`、`aligning-torque-k.md` |
-| 加油门时车头往哪偏 | `.../drive-force-steering.md` |
-| 定圆/等速试验测 K | `.../constant-radius-test.md`、`constant-speed-test.md`、`test-method-choice.md` |
-| **把过多转向调回不足转向** | `.../understeer-tuning.md`、`axle-rule-direction.md`、`design-lever-inventory.md` |
-| 单位换算、出现负侧倾率、数量级不对 | `.../units-constants-checklist.md` |
-| 不用公式判推头（侧风扰动测试） | `.../olley-criterion.md` |
-| 模型适用域 | `.../two-wheel-preconditions.md` |
+| 判断推头/甩尾；算 K | `references/ch06-steady-state-steering/capabilities/steer-character-k.md`、`references/ch06-steady-state-steering/capabilities/sae-k-definition.md`（SAE 的转向盘口径） |
+| 侧偏刚度要不要乘 2、每轴两轮还是单胎 | `references/ch06-steady-state-steering/capabilities/understeer-gradient-definition.md` |
+| 特征车速；"247 mph 是不是很稳" | `references/ch06-steady-state-steering/capabilities/characteristic-speed.md` |
+| 临界车速；甩尾是不是车的问题 | `references/ch06-steady-state-steering/capabilities/critical-speed.md` |
+| 质心侧滑角 β；β 什么时候为零 | `references/ch06-steady-state-steering/capabilities/cg-sideslip-angle.md`、`references/ch06-steady-state-steering/capabilities/beta-zero-speed.md` |
+| 静态裕度 e/L | `references/ch06-steady-state-steering/capabilities/static-margin.md` |
+| 阿克曼角 / 内外轮转角差 / 偏离轮迹 | `references/ch06-steady-state-steering/capabilities/low-speed-geometry.md`、`references/ch06-steady-state-steering/capabilities/ackerman-angle.md`、`references/ch06-steady-state-steering/capabilities/off-tracking.md` |
+| 侧倾刚度、侧倾率、轮荷差、力矩怎么分到前后轴 | `references/ch06-steady-state-steering/capabilities/roll-chain-kphi-phi-dfz.md`、`references/ch06-steady-state-steering/capabilities/roll-rate.md`、`references/ch06-steady-state-steering/capabilities/load-transfer-two-mechanisms.md`、`references/ch06-steady-state-steering/capabilities/roll-stiffness-formula.md`、`references/ch06-steady-state-steering/capabilities/roll-moment-front-bias.md`、`references/ch06-steady-state-steering/capabilities/load-transfer-only-distributed.md` |
+| 外倾对 K 的贡献；地面外倾角怎么合成 | `references/ch06-steady-state-steering/capabilities/camber-thrust-k.md`、`references/ch06-steady-state-steering/capabilities/camber-magnitude-screen.md`、`references/ch06-steady-state-steering/capabilities/camber-angle-composition.md` |
+| 换衬套后转向往哪边变；回正力矩算不算 | `references/ch06-steady-state-steering/capabilities/compliance-steer-k.md`、`references/ch06-steady-state-steering/capabilities/aligning-torque-k.md` |
+| 加油门时车头往哪偏 | `references/ch06-steady-state-steering/capabilities/drive-force-steering.md` |
+| 定圆/等速试验测 K | `references/ch06-steady-state-steering/capabilities/constant-radius-test.md`、`references/ch06-steady-state-steering/capabilities/constant-speed-test.md`、`references/ch06-steady-state-steering/capabilities/test-method-choice.md` |
+| **把过多转向调回不足转向** | `references/ch06-steady-state-steering/capabilities/understeer-tuning.md`、`references/ch06-steady-state-steering/capabilities/axle-rule-direction.md`、`references/ch06-steady-state-steering/capabilities/design-lever-inventory.md` |
+| 单位换算、出现负侧倾率、数量级不对 | `references/ch06-steady-state-steering/capabilities/units-constants-checklist.md` |
+| 不用公式判推头（侧风扰动测试） | `references/ch06-steady-state-steering/capabilities/olley-criterion.md` |
+| 模型适用域 | `references/ch06-steady-state-steering/capabilities/two-wheel-preconditions.md` |
 
-> 本章完整 32 张卡的索引见 `references/ch06-steady-state-steering/capability-index.md`（或 `_chapter-routing.md`）。
+> 本章完整 32 张卡的索引见 `references/ch06-steady-state-steering/capability-index.md`（或 `references/ch01-introduction/_chapter-routing.md`）。
 
 ## 第 7 章 悬架 — 意图索引（18 张卡）
 
 | 用户意图 | 加载 |
 |---|---|
 | 选哪种悬架；两族怎么选 | `references/ch07-suspension/capabilities/structure-family-selection.md` |
-| **100% 抗后蹲的 e/d** | `.../anti-squat-100.md` |
-| 抗后蹲做到百分之多少 | `.../anti-squat-percent.md` |
-| **完全抗前仰的 e/d**（车身水平） | `.../anti-pitch-up-precision.md` |
-| 前驱车抗提升 | `.../front-drive-anti-lift.md` |
-| 俯仰角变化率 θ_p/a_x | `.../pitch-rate-theta-p.md`、`example1-anchors.md` |
-| 初始尺寸速算 | `.../five-e-quick-rule.md` |
-| 等效拖曳臂 / 虚拟作用点 | `.../equivalent-trailing-arm-ed.md`、`virtual-point-method.md` |
-| 整体式车轴的侧倾中心 | `.../roll-center-solid-axle.md` |
-| 独立悬架的侧倾中心 | `.../roll-center-independent.md` |
-| **举升（jacking）风险** | `.../jacking-risk.md` |
-| 满额补偿该不该做（8 条否决） | `.../full-compensation-veto.md` |
-| 选主动悬架等级 | `.../active-suspension-ladder.md`、`active-mode-signals.md` |
-| 平行杆退化 | `.../parallel-arm-infinite-point.md` |
-| 例题回归锚点 | `.../example1-anchors.md`、`example2-anti-lift-anchors.md` |
+| **100% 抗后蹲的 e/d** | `references/ch07-suspension/capabilities/anti-squat-100.md` |
+| 抗后蹲做到百分之多少 | `references/ch07-suspension/capabilities/anti-squat-percent.md` |
+| **完全抗前仰的 e/d**（车身水平） | `references/ch07-suspension/capabilities/anti-pitch-up-precision.md` |
+| 前驱车抗提升 | `references/ch07-suspension/capabilities/front-drive-anti-lift.md` |
+| 俯仰角变化率 θ_p/a_x | `references/ch07-suspension/capabilities/pitch-rate-theta-p.md`、`references/ch07-suspension/capabilities/example1-anchors.md` |
+| 初始尺寸速算 | `references/ch07-suspension/capabilities/five-e-quick-rule.md` |
+| 等效拖曳臂 / 虚拟作用点 | `references/ch07-suspension/capabilities/equivalent-trailing-arm-ed.md`、`references/ch07-suspension/capabilities/virtual-point-method.md` |
+| 整体式车轴的侧倾中心 | `references/ch07-suspension/capabilities/roll-center-solid-axle.md` |
+| 独立悬架的侧倾中心 | `references/ch07-suspension/capabilities/roll-center-independent.md` |
+| **举升（jacking）风险** | `references/ch07-suspension/capabilities/jacking-risk.md` |
+| 满额补偿该不该做（8 条否决） | `references/ch07-suspension/capabilities/full-compensation-veto.md` |
+| 选主动悬架等级 | `references/ch07-suspension/capabilities/active-suspension-ladder.md`、`references/ch07-suspension/capabilities/active-mode-signals.md` |
+| 平行杆退化 | `references/ch07-suspension/capabilities/parallel-arm-infinite-point.md` |
+| 例题回归锚点 | `references/ch07-suspension/capabilities/example1-anchors.md`、`references/ch07-suspension/capabilities/example2-anti-lift-anchors.md` |
 
 > 本章完整 18 张卡的索引见 `references/ch07-suspension/capability-index.md`。
 
@@ -256,16 +256,16 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **转向盘转角对应多少车轮转角**（设计 vs 实测差一倍） | `references/ch08-steering-system/capabilities/steering-ratio-and-wheel-angle.md` |
-| 阿克曼内外轮转角；平行转向的手感差异 | `.../ackermann-wheel-angles-and-low-speed-torque.md` |
-| **车轮一跳就自己转向**（前束变化/侧倾转向的方向判定） | `.../steering-geometry-error-direction.md` |
-| 由侧倾转向系数算对不足转向的贡献 | `.../roll-steer-gradient.md` |
-| 主销内倾产生的自定心力矩 | `.../kingpin-inclination-self-centering-moment.md` |
-| 后倾角与回正力矩 | `.../caster-and-aligning-torque.md` |
-| **为什么实测不足转向比理论大一个数量级**（柔顺性 + 两口径换算） | `.../compliance-understeer-and-basis.md` |
-| 刹车时的后倾角还灵不灵；对开路面跑偏 | `.../braking-caster-and-split-mu.md` |
-| **前驱车加油门为什么更推头**（五机制分解） | `.../fwd-five-mechanisms.md` |
-| 驱动力/制动力作用在转向轴上的力臂 | `.../tractive-force-and-brake-lever.md` |
-| 四轮转向的转弯半径；低速反向 vs 高速同向 | `.../four-wheel-steering-radius-and-phase.md` |
+| 阿克曼内外轮转角；平行转向的手感差异 | `references/ch08-steering-system/capabilities/ackermann-wheel-angles-and-low-speed-torque.md` |
+| **车轮一跳就自己转向**（前束变化/侧倾转向的方向判定） | `references/ch08-steering-system/capabilities/steering-geometry-error-direction.md` |
+| 由侧倾转向系数算对不足转向的贡献 | `references/ch08-steering-system/capabilities/roll-steer-gradient.md` |
+| 主销内倾产生的自定心力矩 | `references/ch08-steering-system/capabilities/kingpin-inclination-self-centering-moment.md` |
+| 后倾角与回正力矩 | `references/ch08-steering-system/capabilities/caster-and-aligning-torque.md` |
+| **为什么实测不足转向比理论大一个数量级**（柔顺性 + 两口径换算） | `references/ch08-steering-system/capabilities/compliance-understeer-and-basis.md` |
+| 刹车时的后倾角还灵不灵；对开路面跑偏 | `references/ch08-steering-system/capabilities/braking-caster-and-split-mu.md` |
+| **前驱车加油门为什么更推头**（五机制分解） | `references/ch08-steering-system/capabilities/fwd-five-mechanisms.md` |
+| 驱动力/制动力作用在转向轴上的力臂 | `references/ch08-steering-system/capabilities/tractive-force-and-brake-lever.md` |
+| 四轮转向的转弯半径；低速反向 vs 高速同向 | `references/ch08-steering-system/capabilities/four-wheel-steering-radius-and-phase.md` |
 
 > 本章完整 11 张卡的索引见 `references/ch08-steering-system/capability-index.md`。
 
@@ -274,19 +274,19 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **这车侧翻门槛多少（t/2h）**；典型车型对比 | `references/ch09-rollover/capabilities/rigid-rollover-threshold.md` |
-| 有超高的弯道；中性车速 | `.../superelevation-and-neutral-speed.md` |
-| 什么时候算"开始翻"、还能不能救回来 | `.../rollover-onset-staging.md` |
-| **会先滑还是先翻**（门槛 vs 摩擦极限） | `.../slide-vs-trip-diagnosis.md` |
-| **悬挂车辆的实际门槛**（侧倾率 + 侧倾中心修正） | `.../suspension-threshold-correction.md` |
-| 精确建模与倾斜平台试验 | `.../precise-model-and-tilt-test.md` |
-| **阶跃还是正弦更危险**（按共振频率分车型） | `.../step-vs-sine-selection.md` |
-| 瞬态门槛的阻尼修正 | `.../transient-threshold-damping.md` |
-| 前后轴相位差；四轮转向的代价 | `.../phase-lag-and-four-wheel-steer.md` |
-| 挂车抽鞭；侧倾耦合怎么做 | `.../trailer-whip-and-roll-coupling.md` |
-| **绊倒侧翻**（撞路缘翻不翻） | `.../tripped-rollover-energy.md` |
-| 读侧翻事故统计；门槛能当指标吗 | `.../accident-statistics-reading.md` |
-| FMVSS 门槛初筛 | `.../fmvss-1-2-screening.md` |
-| 该用哪一层模型（准静态 → 瞬态 → 多体） | `.../model-tier-router.md` |
+| 有超高的弯道；中性车速 | `references/ch09-rollover/capabilities/superelevation-and-neutral-speed.md` |
+| 什么时候算"开始翻"、还能不能救回来 | `references/ch09-rollover/capabilities/rollover-onset-staging.md` |
+| **会先滑还是先翻**（门槛 vs 摩擦极限） | `references/ch09-rollover/capabilities/slide-vs-trip-diagnosis.md` |
+| **悬挂车辆的实际门槛**（侧倾率 + 侧倾中心修正） | `references/ch09-rollover/capabilities/suspension-threshold-correction.md` |
+| 精确建模与倾斜平台试验 | `references/ch09-rollover/capabilities/precise-model-and-tilt-test.md` |
+| **阶跃还是正弦更危险**（按共振频率分车型） | `references/ch09-rollover/capabilities/step-vs-sine-selection.md` |
+| 瞬态门槛的阻尼修正 | `references/ch09-rollover/capabilities/transient-threshold-damping.md` |
+| 前后轴相位差；四轮转向的代价 | `references/ch09-rollover/capabilities/phase-lag-and-four-wheel-steer.md` |
+| 挂车抽鞭；侧倾耦合怎么做 | `references/ch09-rollover/capabilities/trailer-whip-and-roll-coupling.md` |
+| **绊倒侧翻**（撞路缘翻不翻） | `references/ch09-rollover/capabilities/tripped-rollover-energy.md` |
+| 读侧翻事故统计；门槛能当指标吗 | `references/ch09-rollover/capabilities/accident-statistics-reading.md` |
+| FMVSS 门槛初筛 | `references/ch09-rollover/capabilities/fmvss-1-2-screening.md` |
+| 该用哪一层模型（准静态 → 瞬态 → 多体） | `references/ch09-rollover/capabilities/model-tier-router.md` |
 
 > 本章完整 14 张卡的索引见 `references/ch09-rollover/capability-index.md`。
 
@@ -295,28 +295,28 @@ description: |
 | 用户意图 | 加载 |
 |---|---|
 | **轮胎符号怎么定**（$F_z$ 取负、α vs β、$C_\alpha$ 有负号而 $C_\gamma$ 没有） | `references/ch10-tires/capabilities/tire-sign-and-unit-gate.md` |
-| 七个系数由什么决定（结构 vs 胶料） | `.../tire-structure-coefficient-map.md` |
-| **附着系数选多少**（干/湿/冰 + 滑动数） | `.../mu-surface-selection.md` |
-| 纵向滑移与 μ–s 曲线（斜率共、峰值分） | `.../longitudinal-slip-and-mu-s-curve.md` |
-| **载荷 +10% 与胎压的影响** | `.../mu-load-and-pressure-sensitivity.md` |
-| 侧偏力怎么随侧偏角变（三区段） | `.../lateral-force-three-regimes.md` |
-| **侧偏刚度取多少**（由侧偏系数 × 载荷反算） | `.../cornering-stiffness-from-coefficient.md` |
-| **前后轴侧偏刚度怎么配才是不足转向**（须按载荷正则化） | `.../understeer-balance-by-normalized-stiffness.md` |
-| 外倾推力有多大 | `.../camber-stiffness-magnitude.md` |
-| **会不会爬不出车辙**（0.0175 = sin1°） | `.../rut-criterion-0175.md` |
-| 回正力矩三个来源 | `.../aligning-moment-three-sources.md` |
-| 复合滑动与摩擦圆 | `.../combined-slip-and-friction-circle.md` |
-| **跑偏是轮胎还是定位问题**（圆锥度 vs 帘布层转向） | `.../conicity-and-ply-steer.md` |
-| 过台阶/坑的冲击载荷 | `.../step-impact-and-longitudinal-forces.md` |
-| 轮胎模态与反共振（噪声/传递率） | `.../tire-modes-and-anti-resonance.md` |
+| 七个系数由什么决定（结构 vs 胶料） | `references/ch10-tires/capabilities/tire-structure-coefficient-map.md` |
+| **附着系数选多少**（干/湿/冰 + 滑动数） | `references/ch10-tires/capabilities/mu-surface-selection.md` |
+| 纵向滑移与 μ–s 曲线（斜率共、峰值分） | `references/ch10-tires/capabilities/longitudinal-slip-and-mu-s-curve.md` |
+| **载荷 +10% 与胎压的影响** | `references/ch10-tires/capabilities/mu-load-and-pressure-sensitivity.md` |
+| 侧偏力怎么随侧偏角变（三区段） | `references/ch10-tires/capabilities/lateral-force-three-regimes.md` |
+| **侧偏刚度取多少**（由侧偏系数 × 载荷反算） | `references/ch10-tires/capabilities/cornering-stiffness-from-coefficient.md` |
+| **前后轴侧偏刚度怎么配才是不足转向**（须按载荷正则化） | `references/ch10-tires/capabilities/understeer-balance-by-normalized-stiffness.md` |
+| 外倾推力有多大 | `references/ch10-tires/capabilities/camber-stiffness-magnitude.md` |
+| **会不会爬不出车辙**（0.0175 = sin1°） | `references/ch10-tires/capabilities/rut-criterion-0175.md` |
+| 回正力矩三个来源 | `references/ch10-tires/capabilities/aligning-moment-three-sources.md` |
+| 复合滑动与摩擦圆 | `references/ch10-tires/capabilities/combined-slip-and-friction-circle.md` |
+| **跑偏是轮胎还是定位问题**（圆锥度 vs 帘布层转向） | `references/ch10-tires/capabilities/conicity-and-ply-steer.md` |
+| 过台阶/坑的冲击载荷 | `references/ch10-tires/capabilities/step-impact-and-longitudinal-forces.md` |
+| 轮胎模态与反共振（噪声/传递率） | `references/ch10-tires/capabilities/tire-modes-and-anti-resonance.md` |
 
 > 本章完整 15 张卡的索引见 `references/ch10-tires/capability-index.md`。
 
 ## 加载规则
 
 **两级索引**：上面十张表是**高频入口精选**（每个意图一行，列出该意图最该读的 1–3 张卡），不是全部 164 张卡的穷举。
-若表里查不到你要的意图，按顺序查两级：① 本章 `capability-index.md`（完整意图与关键词索引）→ ② 本章 `_chapter-routing.md`（该章编译时生成的全量路由表）。
-**各章的 `capability-index.md` 与 `_chapter-routing.md` 各自 100% 覆盖本章全部卡**，所以不存在"找不到"的卡，只有"顶层表没列"的卡。
+若表里查不到你要的意图，按顺序查两级：① 本章 `references/ch01-introduction/capability-index.md`（完整意图与关键词索引）→ ② 本章 `references/ch01-introduction/_chapter-routing.md`（该章编译时生成的全量路由表）。
+**各章的 `references/ch01-introduction/capability-index.md` 与 `references/ch01-introduction/_chapter-routing.md` 各自 100% 覆盖本章全部卡**，所以不存在"找不到"的卡，只有"顶层表没列"的卡。
 
 - 每次任务先读本文件，再按上表加载 **1** 张能力卡；跨章问题最多 2 张（各章一张）。
 - 概览类问题不加载能力卡，用「四条主线」与 `references/*/overview.md` 回答。
