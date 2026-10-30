@@ -1,0 +1,52 @@
+# Publish to npm when a version tag is pushed.
+#
+# Why a workflow instead of publishing from the laptop: npm credentials exist on exactly one machine in
+# this project's history, and the 1.0.2/1.0.3 mismatch happened precisely because publishing was a
+# manual step that got skipped. A tag-triggered publish makes the tag the single source of truth.
+#
+# workflow_dispatch is included because v1.0.3 was tagged before this file existed; without it the
+# already-pushed tag could not be published without deleting and re-pushing it.
+name: publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # for npm provenance; harmless if the token has provenance disabled
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Refuse to publish a tag that disagrees with package.json
+        # A tag that disagrees with the manifest is how the previous mismatch started.
+        run: |
+          PKG=$(node -p "require('./package.json').version")
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            TAG="${GITHUB_REF_NAME#v}"
+            if [ "$PKG" != "$TAG" ]; then
+              echo "tag ${GITHUB_REF_NAME} != package.json ${PKG}" >&2
+              exit 1
+            fi
+            echo "tag and manifest agree on ${PKG}"
+          else
+            echo "manual run, publishing ${PKG}"
+          fi
+
+      - name: Publish
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
