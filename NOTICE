@@ -158,3 +158,20 @@ This file states what the package contains and how it was produced. It is not a
 legal opinion and does not claim that any particular use is permitted in any
 particular jurisdiction. Anyone redistributing this package, or building on it,
 should make their own assessment or seek their own advice.
+
+## Quotation policy / 引用口径
+
+This skill quotes the source book briefly and always with a page reference. The rule it holds itself to:
+
+- **An attributed quotation keeps at most 25 Chinese characters.** Where a passage needed more than that,
+  the excess is paraphrased outside the quotation marks rather than quoted.
+- **No unattributed run of ten or more characters.** Every overlap longer than that is either a quotation
+  with its source named, or a paraphrase.
+- Bibliographic strings — title, author, publisher, edition, ISBN — are quoted verbatim, because a
+  citation that paraphrases its own source is not a citation.
+
+本 skill 对原书只作**带页号的短引用**，并遵守两条：
+
+- **单次引用不超过 25 个汉字**；需要更长的部分，一律在引号外改写成转述。
+- **不存在无出处的 10 字以上连续重合**：凡超过的，要么是标明出处的引用，要么是转述。
+- 书目信息（书名、作者、出版社、版次、ISBN）按原文引用——引用自己的来源不许改写。

@@ -1,6 +1,6 @@
 {
   "name": "dsh-vehicle-dynamics",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "DSH skill distilled from the whole of Gillespie's Fundamentals of Vehicle Dynamics (10 chapters, 164 capability cards): axle loads, acceleration, braking, road loads, ride, steady-state steering, suspension geometry, steering systems, rollover, and tyres — with 60+ documented source/OCR defects flagged inline. One skill entry, two-level routing.",
   "type": "module",
   "main": "lib/startup.js",
