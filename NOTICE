@@ -82,7 +82,7 @@ WHAT THE PACKAGE DOES CONTAIN, AND WHY THAT IS FINE:
   * the structure of the capability cards, the routing, the recomputations,
     and the defect analyses — original work of this package.
 
-The value of the package lies in the last group. Roughly 77 distinct defects
+The value of the package lies in the last group. 44 registered defects
 in the source are documented — misprints, OCR damage, internally contradictory
 passages, and two figures whose numbers cannot be reconciled. Those findings
 are the package's own contribution and exist precisely to warn a reader away
